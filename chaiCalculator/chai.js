@@ -1,12 +1,12 @@
-const cups = prompt('Karibu! How many cups of Chai Bora would you like to make?')
+const numberOfCups = prompt('Karibu! How many cups of Chai Bora would you like to make?')
 
-function calculateChaiIngredients(cups){
-    console.log(`To make ${cups} cups of Kenyan Chai, you will need:
-Water: ${cups * 200} ml
-Milk: ${cups * 50} ml
-Tea Leaves (Majani): ${cups} tablespoons
-Sugar (Sukari): ${cups *2} teaspoons
+function calculateChaiIngredients(numberOfCups){
+    console.log(`To make ${numberOfCups} cups of Kenyan Chai, you will need:
+Water: ${numberOfCups * 200} ml
+Milk: ${numberOfCups * 50} ml
+Tea Leaves (Majani): ${numberOfCups} tablespoons
+Sugar (Sukari): ${numberOfCups *2} teaspoons
 
 Enjoy your Chai Bora!`)
 }
-calculateChaiIngredients(cups)
+calculateChaiIngredients(numberOfCups)
